@@ -3,11 +3,13 @@
     text-align: center;
     /* margin-left: 130px;
     margin-right: 130px; */
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    width: 100%;
+    height: 100vh;
     
 }
 .extra h1{
-    font-size: 60px;
+    font-size: 4 rem;
 } 
 .img{
     border-radius: 50%;
@@ -24,13 +26,12 @@
 
     
 }
-.text{
-    margin-left: 50px;
-    margin-right: 50px;
-}
+/* .text{
+    
+} */
 @media (max-width: 670px){
     .extra{
-        padding-top: 50%;
+        padding-top:25%;
         width: 100%;
         height: 100vh;
     }

@@ -17,7 +17,7 @@ function Skills() {
 
     <h1>SKILLS</h1>
     <p className='mt-3'>Here the Technologies I've worked with</p>
-    <div className="row row-cols-4 row-cols-md-4 pt-5 row-cols-lg-6 text-center"
+    <div className="row row-cols-4 row-cols-md-4 pt-5 row-cols-lg-6 text-center mx-auto"
     >
     
       <div className='shadow shadow-lg rounded-lg'
