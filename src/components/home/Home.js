@@ -23,8 +23,8 @@ import "./Home.css"
           applications.
         </p>
         <div className="group">
-          <button className="btn btn-custom text-white  border-white  py-3   " >
-            Thankyou
+          <button className="btn btn-custom text-white  border-white  py-3 px--2  " >
+            
            <p>Please go through NavBar</p> 
             
           </button>

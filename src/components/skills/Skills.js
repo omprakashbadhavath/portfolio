@@ -17,13 +17,13 @@ function Skills() {
 
     <h1>SKILLS</h1>
     <p className='mt-3'>Here the Technologies I've worked with</p>
-    <div className="row row-cols-4 row-cols-md-4 pt-5 row-cols-lg-6 text-center mx-auto"
+    <div className="row row-cols-3 row-cols-md-3 pt-5 row-cols-lg-6 text-center mx-auto"
     >
     
       <div className='shadow shadow-lg rounded-lg'
       >
       <img
-        className='' style={{ width: '7rem', maxWidth: '' }} 
+        className='w-10 py-2 mx-auto g-4' style={{ width: '7rem', maxWidth: '' }} 
         src={html}
         alt=""
       />
@@ -93,7 +93,7 @@ function Skills() {
      
       <div className='shadow shadow-lg'>
       <img
-        className='g-4'
+        className='w-10 py-2 mx-auto g-4'
         style={{ width: '7rem', maxWidth: '' }} 
         src={c}
         alt=""
@@ -105,7 +105,7 @@ function Skills() {
 
       <div className='shadow shadow-lg rounded-lg'>
       <img
-        className='g-4'
+        className='w-10 py-2 mx-auto g-4'
         style={{ width: '7rem', maxWidth: '' }} 
         src={cpp}
         alt=""
@@ -116,7 +116,7 @@ function Skills() {
 
       <div className='shadow shadow-lg rounded-lg '>
       <img
-        className='g-4'
+        className='w-10 py-2 mx-auto g-4'
         style={{ width: '7rem', maxWidth: '' }} 
         src={python}
         alt=""

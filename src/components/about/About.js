@@ -9,9 +9,9 @@ function About() {
             <h1 className="">
               ABOUT
             </h1>
-    <div className="">
+    <div className=" p-5">
       <div className="">
-        <div className="col-lg-10 mx-auto  d-flex flex-column flex-sm-row justify-content-between gap-5">
+        <div className="col-lg-8 mx-auto  d-flex flex-column flex-sm-row justify-content-between gap-5">
           <div className="name text-info">
             <p>
               HI! I'm Om, Nice to see you here. Please take a look around.
