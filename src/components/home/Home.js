@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
+
 import "./Home.css"
 
  function Home() {
@@ -24,8 +24,9 @@ import "./Home.css"
         </p>
         <div className="group">
           <button className="btn btn-custom text-white  border-white  py-3   " >
-            View More!
-            <HiArrowRight className="ms-2  rotate-90" />
+            Thankyou
+           <p>Please go through NavBar</p> 
+            
           </button>
         </div>
       </div>
