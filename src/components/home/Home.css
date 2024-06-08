@@ -1,0 +1,32 @@
+.home{
+    text-align: center;
+    
+    width: 100%;
+    height: 100vh;
+    margin-top: 200px;
+   
+    
+}
+
+.home h1{
+    font-size: 4rem;
+    color: tan;
+}
+.home btn :hover{
+   background-color: bisque;
+}
+.btn-custom:hover {
+    background-color: peru; 
+    /* border-color: #f19191;  */
+    /* border-radius: 0.5rem;  */
+  }
+  .group:hover .rotate-90 {
+    transform: rotate(90deg); /* Equivalent to group-hover:rotate-90 */
+  }
+  .rotate-90 {
+    transition: transform 0.5s; /* Equivalent to duration-500 */
+  }
+  .group{
+    margin-top: 50px;
+  }
+
