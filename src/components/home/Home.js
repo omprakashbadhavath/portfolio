@@ -18,7 +18,7 @@ import "./Home.css"
           STUDENT
         </h2>
         <p className="mt-4 text-white">
-          A 2nd year IT student from VNRVJIET college, I am specialized in React
+          A 3rd year IT student from VNRVJIET college, I am specialized in React
           JS and python. Im open for freelancing (designing and developing) web
           applications.
         </p>
