@@ -1,0 +1,66 @@
+/* General styles */
+.nav-link a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Icon container */
+  .react-icon-container {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* React icon style */
+  .react-icon {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  /* Media query to show the icon when the screen is small */
+  @media (max-width: 768px) {
+    .react-icon-container {
+      display: block; /* Show the icon on small screens */
+    }
+  
+    /* Adjust navbar layout to column direction */
+    .nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Adjust list items to display in a column and centered */
+    .nav-column {
+      display: flex;
+      flex-direction: column; /* Arrange nav items vertically */
+      list-style-type: none;
+      padding-left: 0;
+    }
+  
+    .nav-link {
+      text-align: center;
+      padding: 10px 0; /* Space between items */
+      width: 100%; /* Full width for each item */
+      border-bottom: 1px solid white; /* Optional: add a divider */
+    }
+  
+    .nav-link:last-child {
+      border-bottom: none; /* Remove the bottom border for the last item */
+    }
+  }
+  
+
+  /* Add any additional custom styling you want here */
+.navigation-bar a {
+    text-decoration: none;
+  }
+  
+  @media (min-width: 768px) {
+    .navigation-bar ul {
+      background-color: #343a40; /* Dark background for horizontal navbar */
+    }
+  }
+  

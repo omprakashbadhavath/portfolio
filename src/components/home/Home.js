@@ -8,8 +8,8 @@ import "./Home.css"
   
   return (
     // bg-[#4a596f]
-    <div className=" home  ">
-      <div className="">
+    <div className=" home pt-7 ">
+    
         <p className=" text-white ">Hey, my name is </p>
         <h1 className="fw-bold">
           OMPRAKASH BADAWAT
@@ -29,7 +29,7 @@ import "./Home.css"
             
           </button>
         </div>
-      </div>
+      
     </div>
   );
 }
