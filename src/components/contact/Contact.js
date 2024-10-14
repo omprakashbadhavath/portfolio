@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='  form d-flex justify-content-center mx-auto'>
+    <div className='  form d-flex justify-content-center mx-auto text-white'>
       <div className='container  p-4 d-flex flex-column justify-content-center w-100'>
 
 <div className="py-4">

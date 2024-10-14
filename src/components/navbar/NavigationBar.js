@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavigationBar.css';
 import { IoReorderThreeSharp } from "react-icons/io5";
+import { FaTimes } from "react-icons/fa";
 
 function NavigationBar() {
   const [isNavVisible, setIsNavVisible] = useState(false); // State to track navbar visibility
@@ -17,7 +18,16 @@ function NavigationBar() {
       <div style={{ background: see }}>
         {/* React Icon, click to toggle navbar on mobile */}
         <div className="d-md-none react-icon-container justify-content-end" onClick={toggleNavVisibility}>
+          {isNavVisible ? (
+            <FaTimes className='fs-3' />
+          ):
+          
+        
+        
+          
           <IoReorderThreeSharp className="react-icon" />
+        }
+         
         </div>
 
         {/* Horizontal navbar for larger screens (>= 768px) */}
@@ -44,7 +54,7 @@ function NavigationBar() {
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink className="nav-link" to="contact">
+              <NavLink className="nav-link text-white" to="contact">
                 Contact
               </NavLink>
             </li>
