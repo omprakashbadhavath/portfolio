@@ -14,10 +14,10 @@ function NavigationBar() {
   };
 
   return (
-    <div className='text-white'>
-      <div style={{ background: see }}>
+    <div className='text-white'  >
+      
         {/* React Icon, click to toggle navbar on mobile */}
-        <div className="d-md-none react-icon-container justify-content-end" onClick={toggleNavVisibility}>
+        <div className="d-md-none react-icon-container justify-content-end"  onClick={toggleNavVisibility}>
           {isNavVisible ? (
             <FaTimes className='fs-3' />
           ):
@@ -26,10 +26,16 @@ function NavigationBar() {
         
           
           <IoReorderThreeSharp className="react-icon" />
+       
         }
-         
         </div>
+        
 
+        
+       
+         
+        
+        <div style={{ backgroundColor: see }} className=''>
         {/* Horizontal navbar for larger screens (>= 768px) */}
         <div className="d-none d-md-block m-auto">
           <ul className="nav justify-content-center p-3 fs-5">
@@ -60,10 +66,14 @@ function NavigationBar() {
             </li>
           </ul>
         </div>
+        </div>
 
         {/* Conditionally render the vertical navbar for mobile (less than 768px) */}
+       
         {isNavVisible && (
-          <div className="d-md-none m-auto">
+          
+           <div className="d-md-none m-auto">
+           
             <ul className="nav flex-column p-3 fs-5">
               <li className='nav-link'>
                 <NavLink className="nav-link" onClick={toggleNavVisibility} to="">
@@ -91,11 +101,16 @@ function NavigationBar() {
                 </NavLink>
               </li>
             </ul>
-          </div>
+            </div>
+       
+          
         )}
-      </div>
+        
+      
     </div>
+    
   );
+  
 }
 
 export default NavigationBar;

@@ -5,10 +5,11 @@ function About() {
   return (
     <div className="about text-white justify-content-center">
       <div className='justify-content-center mx-auto p-4'>
-      
+      <div className='text-center'>
             <h1 className="">
               ABOUT
             </h1>
+            </div>
     <div className=" p-5">
       <div className="">
         <div className="col-lg-8 mx-auto  d-flex flex-column flex-sm-row justify-content-between gap-5">
